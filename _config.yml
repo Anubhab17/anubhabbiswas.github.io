@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "Anubhab Biswas"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Anubhab"
 description              : &description "personal description"
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,12 +24,12 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
+  pronouns         : "he/him"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Lugano, Ticino, Switzerland"
+  employer         : "Scuola universitaria professionale della Svizzera italiana (SUPSI)"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "anubhab.biswas@supsi.ch" 
 
   # Academic websites
   academia         : # URL
