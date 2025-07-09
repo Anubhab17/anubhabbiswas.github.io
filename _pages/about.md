@@ -1,8 +1,10 @@
 ---
 permalink: /
 title: "About"
-layout: home
 author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
 Anubhab is a PhD student specializing in Data-driven Forecasting and Control at the Institute of Applied Sustainability to the Built Environment (ISAAC), SUPSI. His current research centers on forecast reconciliation, where he is developing novel methods and algorithms with a focus of applying them in real-world scenarios for electric-grid and demand forecasting.
