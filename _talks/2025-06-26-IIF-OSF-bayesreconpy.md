@@ -21,4 +21,4 @@ This presentation will introduce the software and demonstrate core functionaliti
 **Slides**:
 
 You can find the slides here:
-[▶️ View the slides (HTML)](/files/IIF_OSF_workshop_2025.html)
+[▶️ View the slides (HTML)](/anubhabbiswas.github.io/files/IIF_OSF_workshop_2025.html)
