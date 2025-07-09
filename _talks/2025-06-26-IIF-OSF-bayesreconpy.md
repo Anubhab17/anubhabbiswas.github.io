@@ -3,7 +3,7 @@ title: "Probabilistic forecast reconciliation with bayesRecon"
 collection: talks
 type: "Talk"
 permalink: /talks/IIF-OSF-2025
-venue: "IIF Workshop on Open Source Forecasting 2025, Beihang University"
+venue: "IIF Workshop on Open Source Forecasting 2025"
 date: 2025-06-26
 location: "Beihang University, Haidian dist, Beijing, China"
 ---

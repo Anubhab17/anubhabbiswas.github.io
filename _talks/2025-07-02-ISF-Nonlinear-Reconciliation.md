@@ -3,7 +3,7 @@ title: "Probabilistic Nonlinear Forecast Reconciliation Methods: Projection, Imp
 collection: talks
 type: "Talk"
 permalink: /talks/ISF-2025
-venue: "International Symposium on Forecasting (ISF) 2025, Beijing"
+venue: "International Symposium on Forecasting (ISF) 2025"
 date: 2025-07-02
 location: "Friendship Palace, Haidian dist, Beijing, China"
 ---
