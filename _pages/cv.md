@@ -38,12 +38,27 @@ Programming Skills
 * Python : advanced
 * R : advanced
 
+Packages
+======
+
+* BayesReconPy : A package for Bayesian Forecast Reconciliation in Python
+  * Python package
+  * Available via pip
+  * Github : [💻](https://github.com/supsi-dacd-isaac/BayesReconPy)
+  * Documentation : [📖](https://bayesreconpy.readthedocs.io/en/latest/) 
+
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
+{% comment %}
+<ul>
+  {% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+  {% endfor %}
+</ul>
+{% endcomment %}
+
+<p style="text-align: center; font-size: 1.2em;">📄 Publications coming soon.</p>
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
@@ -52,6 +67,12 @@ Talks
   
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
+{% comment %}
+<ul>
+  {% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}
+</ul>
+{% endcomment %}
+
+<p style="text-align: center; font-size: 1.2em;">🎓 Teaching content coming soon.</p>
