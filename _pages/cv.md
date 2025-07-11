@@ -49,15 +49,12 @@ Packages
 
 Publications
 ======
-{% comment %}
 <ul>
   {% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}
 </ul>
-{% endcomment %}
 
-<p style="text-align: center; font-size: 1.2em;">📄 Publications coming soon.</p>
 
 Talks
 ======
