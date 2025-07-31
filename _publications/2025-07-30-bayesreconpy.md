@@ -1,7 +1,7 @@
 ---
 title: "BayesReconPy: A Python package for forecast reconciliation"
 collection: publications
-category: software
+category: manuscripts
 permalink: /publication/2025-07-30-bayesreconpy
 excerpt: 'BayesReconPy implements probabilistic forecast reconciliation, including discrete and mixed hierarchies.'
 date: 2025-07-30
