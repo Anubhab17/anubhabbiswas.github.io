@@ -16,4 +16,6 @@ BayesReconpy implements methods for probabilistic forecast reconciliation in Pyt
 reconciles hierarchies containing real-valued time series, discrete time series and a mixture of
 real-valued and discrete time series (mixed hierarchies).
 
-Read the full paper on [JOSS](https://arxiv.org/abs/2411.12258).
+Github link for the package: [bayesreconpy](https://github.com/supsi-dacd-isaac/BayesReconPy)
+
+Read the full paper on [JOSS](https://joss.theoj.org/papers/10.21105/joss.08336).
