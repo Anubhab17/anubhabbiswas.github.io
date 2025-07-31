@@ -3,7 +3,7 @@ title: "BayesReconPy: A Python package for forecast reconciliation"
 collection: publications
 category: software
 permalink: /publication/2025-07-30-bayesreconpy
-excerpt: ''
+excerpt: 'BayesReconPy: A Python package for forecast reconciliation'
 date: 2025-07-30
 venue: 'journal of Open Source Software'
 paperurl: 'https://joss.theoj.org/papers/10.21105/joss.08336'
