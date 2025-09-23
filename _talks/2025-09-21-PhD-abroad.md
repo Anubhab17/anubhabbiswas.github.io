@@ -2,6 +2,7 @@
 title: "PhD Abroad"
 collection: talks
 type: "Talk"
+venue: "Webinar"
 permalink: /talks/UoH-2025-PhD
 date: 2025-09-21
 location: "Online"
