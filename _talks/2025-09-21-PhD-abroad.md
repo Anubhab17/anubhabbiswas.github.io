@@ -12,4 +12,4 @@ A presentation and interactive session with the current students of the School o
 **Slides**:
 
 You can find the updated slides here:
-[▶️ View the slides (HTML)](/anubhabbiswas.github.io/files/PhD_Abroad_2025.html)
+[▶️ View the slides (HTML)](/anubhabbiswas.github.io/files/PhD_Abroad.html)
