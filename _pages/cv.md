@@ -20,12 +20,12 @@ Work experience
 * 2024-current : PhD Student
   * ISAAC, Scuola universitaria professionale della Svizzera italiana (SUPSI)
   * Mendrisio, Switzerland
-  * Supervisor: [Dr. Lorenzo Nespoli](https://www.supsi.ch/lorenzo-nespoli)
+  * Supervisors: [Dr. Lorenzo Nespoli](https://www.supsi.ch/lorenzo-nespoli), [Prof. Giorgio Corani](https://www.supsi.ch/giorgio-corani)
 
 * 2024-current: Teaching Assistant
   * DTI, Scuola universitaria professionale della Svizzera italiana (SUPSI)
   * Viganello, Switzerland
-  * Course instructors: [Prof. Giorgio Corani](https://www.supsi.ch/giorgio-corani), [Dr. Lorenzo Nespoli](https://www.supsi.ch/lorenzo-nespoli), [Dr. Marco Forgione](https://www.supsi.ch/marco-forgione)
+  * Course instructors: [Prof. Giorgio Corani](https://www.supsi.ch/giorgio-corani), [Dr. Lorenzo Nespoli](https://www.supsi.ch/lorenzo-nespoli), [Dr. Marco Forgione](https://www.supsi.ch/marco-forgione),  [Dr. Dario Filippo Azzimonti](https://www.supsi.ch/dario-filippo-azzimonti)
 
 * 2023-2024 : Research Assistant
   * ForeML Lab, Sorbonne University
