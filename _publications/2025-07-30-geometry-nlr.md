@@ -7,7 +7,7 @@ excerpt: 'This paper presents a theoretical framework for nonlinear forecast rec
 date: 2026-01-13
 venue: 'Transactions on Machine Learning Research'
 paperurl: 'https://openreview.net/forum?id=dXRWuogm3J'
-citation: 'N. Nespoli, A. Biswas, R. Rocchetta, and V. Medici, “Nonlinear reconciliation: Error reduction theorems,” Transactions on Machine Learning Research." </i>https://openreview.net/forum?id=dXRWuogm3J</i>.'
+citation: 'L. Nespoli, A. Biswas, R. Rocchetta, and V. Medici, “Nonlinear reconciliation: Error reduction theorems,” Transactions on Machine Learning Research." </i>https://openreview.net/forum?id=dXRWuogm3J</i>.'
 bibtexurl: 'https://openreview.net/forum?id=dXRWuogm3J'
 ---
 **Authors**: Lorenzo Nespoli, Anubhab Biswas, Roberto Rocchetta, Vasco Medici
