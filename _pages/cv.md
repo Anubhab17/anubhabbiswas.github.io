@@ -17,7 +17,7 @@ Education
 
 Work experience
 ======
-* 2024-current : PhD Student
+* 2024-current : Doctoral researcher (PhD Student)
   * ISAAC, Scuola universitaria professionale della Svizzera italiana (SUPSI)
   * Mendrisio, Switzerland
   * Supervisors: [Dr. Lorenzo Nespoli](https://www.supsi.ch/lorenzo-nespoli), [Prof. Giorgio Corani](https://www.supsi.ch/giorgio-corani)
@@ -26,6 +26,12 @@ Work experience
   * DTI, Scuola universitaria professionale della Svizzera italiana (SUPSI)
   * Viganello, Switzerland
   * Course instructors: [Prof. Giorgio Corani](https://www.supsi.ch/giorgio-corani), [Dr. Lorenzo Nespoli](https://www.supsi.ch/lorenzo-nespoli), [Dr. Marco Forgione](https://www.supsi.ch/marco-forgione),  [Dr. Dario Filippo Azzimonti](https://www.supsi.ch/dario-filippo-azzimonti)
+  * Courses assisted: 
+    * "Bayesian Data Analysis and Probabilistic Programming" (Autumn, 2024-25)
+    * "Time Series, Analytics and Forecasting" (Spring, 2024-25)
+    * "Bayesian Data Analysis and Probabilistic Programming" (Autumn, 2025-26)
+    * "Data Science in R" (Spring, 2025-26)
+    * "Time Series, Analytics and Forecasting" (Autumn, 2026-27) (upcoming)
 
 * 2023-2024 : Research Assistant
   * ForeML Lab, Sorbonne University
@@ -73,3 +79,14 @@ Teaching
 {% endcomment %}
 
 <p style="text-align: center; font-size: 1.2em;">🎓 Teaching content coming soon.</p>
+
+Languages
+======
+
+* **English** : Bilingual proficiency
+* **Bengali** : Native proficiency
+* **Hindi** : Bilingual proficiency
+* **Mandarin Chinese** : Elementary proficiency (HSK 1)
+* **German** : Elementary proficiency (A1)
+* **Italian** : Elementary proficiency (A1)
+* **Russian** : Elementary proficiency (A1)
