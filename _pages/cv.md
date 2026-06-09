@@ -67,18 +67,17 @@ Talks
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
+ 
+
 Teaching
 ======
-{% comment %}
+
 <ul>
   {% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}
 </ul>
-{% endcomment %}
 
-<p style="text-align: center; font-size: 1.2em;">🎓 Teaching content coming soon.</p>
 
 Languages
 ======
