@@ -1369,7 +1369,7 @@ y_t = \beta_0 + \beta_1x_{1,t} + \dots + \beta_px_{p,t} + \epsilon_t
 <section id="boosting-models-for-forecasting" class="slide level2">
 <h2>Boosting models for forecasting</h2>
 <ul>
-<li>Boosting models require transforming a forecasting problem into a supervised learning problem (nonlinear) by converting time series into predictors:</li>
+<li>Like other regression approaches, boosting models require transforming a forecasting problem into a supervised learning problem (<em>nonlinear</em>) by converting time series into predictors:</li>
 </ul>
 <p><span class="math display">\[
 y_t=f(\mathbf{x}_t)+\epsilon_t
@@ -1429,7 +1429,7 @@ f(\mathbf{x}_t)=\sum_{m=1}^{M}\gamma_m h_m(\mathbf{x}_t)
 <li><p><strong><em>Ex-post forecasts</em></strong> :</p>
 <ul>
 <li>Future values of the predictors (not <span class="math inline">\(y_t\)</span>!!) are known in advance.</li>
-<li>Examples include predictors determined by <strong>external information</strong>, such as planned prices, known policy changes, future scenarios etc.</li>
+<li>Examples include predictors determined by <strong>external information</strong>, such as planned prices, known policy changes, future scenarios, weather forecasts.</li>
 </ul></li>
 <li><p><strong>Calendar predictors</strong> are known in both the cases.</p></li>
 </ul>
