@@ -11,6 +11,8 @@ Anubhab is a **Doctoral Researcher** in Data-driven Forecasting and Control at t
 
 He is currently developing novel methods for probabilistic forecast reconciliation, with an emphasis on nonlinear approaches and their application to real-world forecasting problems, particularly in electric-grid and energy-demand forecasting.
 
+
+
 ### Upcoming Activities
 
 * **Visiting Researcher at the University of Padova** (October 2026)

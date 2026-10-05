@@ -583,10 +583,20 @@ margin-top: -0.2em;
 .reveal h2 {
 line-height: 1.2;
 }
-.reveal figcaption,
-.reveal .figure-caption {
+.reveal .quarto-figure-center {
 text-align: center !important;
-}</style>
+}
+.reveal figcaption,
+.reveal .figure-caption,
+.reveal .quarto-float-caption,
+.reveal .quarto-float-caption p {
+text-align: center !important;
+width: 100% !important;
+}
+.small-table table {
+font-size: 0.75em;
+}
+</style>
   <style type="text/css">.reveal
 div.sourceCode
 pre
@@ -1504,16 +1514,25 @@ s_t = \gamma^*(y_t - l_t) + (1-\gamma^*)s_{t-m}
 <section id="ets-forecast" class="slide level2">
 <h2>ETS: <em>forecast</em></h2>
 <ul>
-<li><p><em>Point forecasts</em> are obtained by</p>
+<li><em>Point forecasts</em> are obtained by
 <ul>
 <li>iterating the equations for <span class="math inline">\(t = T+1,\dots,T+h\)</span></li>
 <li>setting errors to <span class="math inline">\(0\)</span> for all the future time steps.</li>
 </ul></li>
-<li><p>For ETS(M,A,N), <span class="math inline">\(y_{T+1} = (l_t+b_t)(1+\epsilon_{T+1})\)</span> which implies, <span class="math inline">\(\hat{y}_{T+1|T} = l_T+b_T\)</span>.</p></li>
+<li>For ETS(M,A,N),
+<ul>
+<li><span class="math inline">\(y_{T+1} = (l_T+b_T)(1+\color{blue}{\underbrace{\epsilon_{T+1}}_{=0}})\)</span></li>
+<li><span class="math inline">\(\implies\hat{y}_{T+1|T} = l_T+b_T\)</span>.</li>
+</ul></li>
+</ul>
+</section>
+<section id="ets-prediction-intervals" class="slide level2">
+<h2>ETS: prediction intervals</h2>
+<ul>
 <li><p>To obtain <em>prediction intervals</em>, the following form is used, <span class="math display">\[
 \hat{y}_{T+1|T} \pm c\sigma_h
 \]</span> where <span class="math inline">\(c:\text{coverage probability}\)</span> and <span class="math inline">\(\sigma_h^2:\text{forecast variance}\)</span>.</p></li>
-<li><p>For <span class="math inline">\(95%\)</span> prediction intervals, <span class="math inline">\(c=1.96\)</span>; similarly other values of <span class="math inline">\(c\)</span> depending on the prediction interval can be obtained from the standard normal table.</p></li>
+<li><p>For <span class="math inline">\(95\%\)</span> prediction intervals, <span class="math inline">\(c=1.96\)</span>; similarly other values of <span class="math inline">\(c\)</span> depending on the prediction interval can be obtained from the standard normal table.</p></li>
 <li><p>Estimating <span class="math inline">\(\sigma_h^2\)</span> is complicated and the python package will take care of that.</p></li>
 </ul>
 </section>
@@ -1525,7 +1544,7 @@ s_t = \gamma^*(y_t - l_t) + (1-\gamma^*)s_{t-m}
 </ul>
 <div class="fragment">
 <ul>
-<li><p>The statistical properties of a stationary time series <span class="math inline">\(\{y_t\}\)</span> doesn’t depend on the time at which the series is observed, i.e., <span class="math inline">\(\forall s\)</span>, the distribution of <span class="math inline">\((y_t,\dots,y_{t+s})\)</span> does not depend on <span class="math inline">\(t\)</span>.</p></li>
+<li><p>The statistical properties of a stationary time series <span class="math inline">\(\{y_t\}\)</span> doesn’t depend on the time at which the series is observed, i.e., <em><span class="math inline">\(\forall s\)</span>, the distribution of <span class="math inline">\((y_t,\dots,y_{t+s})\)</span> does not depend on <span class="math inline">\(t\)</span></em>.</p></li>
 <li><p>Among the time series shown in the next slide can you tell which of the following are stationary?</p></li>
 </ul>
 </div>
@@ -1537,8 +1556,8 @@ s_t = \gamma^*(y_t - l_t) + (1-\gamma^*)s_{t-m}
 <section id="differencing" class="slide level2">
 <h2>Differencing</h2>
 <ul>
-<li><p>In the previous example, notice that the plots of (b) and (c) are coming from the same time series; and so are plots of (f) and (g).</p></li>
-<li><p>However, only (c) and (g) were stationary.</p></li>
+<li><p>In the previous example, notice that the plots <em>(b)</em> and <em>(c)</em> are coming from the same time series; and so are plots <em>(f)</em> and <em>(g)</em>.</p></li>
+<li><p>However, only <strong><em>(c)</em></strong> and <strong><em>(g)</em></strong> are stationary.</p></li>
 <li><p>This is one way to make a non-stationary time series <strong>with varying mean</strong> stationary - by computing differences between consecutive observations.</p></li>
 <li><p>Remember the <em>level equation</em>s in ETS?</p></li>
 </ul>
@@ -1569,10 +1588,9 @@ y_t&#39; = y_t - y_{t-m}, \quad m:\text{no. of seasons}
 <li><p>A natural question is, how to know if differencing is required, or more generally which is the order at which we can stop differencing further?</p></li>
 <li><p>This can be decided using certain statistical hypotheses tests known as unit root tests.</p></li>
 <li><p>There are a few different options for the unit root tests with different assumptions.</p></li>
-<li><p>In our experiments we will use the KPSS test where the null hypothesis is <span class="math inline">\(H_0:y_t\text{ is stationary}\)</span> against the alternative <span class="math inline">\(H_1:y_t\text{ is not stationary}\)</span>.</p></li>
-<li><p>In the practical session, we will see in details how to use this test.</p></li>
+<li><p>The python package that we will refer to in the practical session uses repeated KPSS tests<sup>1</sup>,<sup>2</sup> where the null hypothesis is <span class="math inline">\(H_0:y_t\text{ is stationary}\)</span> against the alternative <span class="math inline">\(H_1:y_t\text{ is not stationary}\)</span>.</p></li>
 </ul>
-</section>
+<aside><ol class="aside-footnotes"><li id="fn2"><p><a href="https://otexts.com/fpppy/09-arima.html#unit-root-tests">KPSS test</a></p></li><li id="fn3"><p><a href="https://otexts.com/fpppy/09-arima.html#how-does-autoarima-work">HK algorithm</a></p></li></ol></aside></section>
 <section id="backshift-operator" class="slide level2">
 <h2>Backshift operator</h2>
 <ul>
@@ -1692,7 +1710,7 @@ y_t = c + \epsilon_t + \theta_1\epsilon_{t-1} + \dots + \theta_q\epsilon_{t-q}
 <h2>ARIMA: <em>estimate</em></h2>
 <ul>
 <li><p>For ARIMA models, <em>AIC</em> and <em>BIC</em> are useful to determine the order (<span class="math inline">\(p\)</span>, <span class="math inline">\(d\)</span>, and <span class="math inline">\(q\)</span>).</p></li>
-<li><p>We don’t need to worry much about this part; the python package we will be using for fitting the forecasting models will automatically give us the order of the ARIMA using the minimized AIC or BIC.</p></li>
+<li><p>The python package we will be using for fitting the forecasting models will automatically give us the order of the ARIMA using the minimized AIC or BIC 😼.</p></li>
 <li><p>Once the order is determined, they are estimated using the maximum likelihood estimation (<em>MLE</em>) procedure.</p></li>
 <li><p>For ARIMA models, these results are similar to the ones obtained by using the least squares method by minimizing <span class="math inline">\(\sum_{t=1}^{T}\epsilon_t^2\)</span>.</p></li>
 </ul>
@@ -1706,8 +1724,8 @@ y_t = c + \epsilon_t + \theta_1\epsilon_{t-1} + \dots + \theta_q\epsilon_{t-q}
 <li>Rewrite the equation by replacing <span class="math inline">\(t\)</span> with <span class="math inline">\(T+h\)</span></li>
 <li>On RHS, replace future observations with their forecasts, future errors with <span class="math inline">\(0\)</span>, and past errors with corresponding residuals.</li>
 </ul></li>
-<li><p>Again, the forecasting package takes care of this.</p></li>
-<li><p>To understand this step better and to understand how to produce prediction intervals over these point forecasts refert to <a href="https://otexts.com/fpppy/09-arima.html#sec-arima-forecasting">fpppy 9.8</a>.</p></li>
+<li><p>The forecasting package takes care of this.</p></li>
+<li><p>To understand this step better and to understand how to produce prediction intervals over these point forecasts refer to <a href="https://otexts.com/fpppy/09-arima.html#sec-arima-forecasting">fpppy 9.8</a>.</p></li>
 </ul>
 </section>
 <section id="exercise" class="slide level2">
@@ -1715,9 +1733,10 @@ y_t = c + \epsilon_t + \theta_1\epsilon_{t-1} + \dots + \theta_q\epsilon_{t-q}
 <ul>
 <li>In the practical session we will do the following tasks:
 <ul>
-<li>Convert an extracted time series data into tidy dataframe.</li>
-<li>How to use <strong><em>statsforecast</em></strong> package.</li>
-<li>AutoETS and AutoARIMA for forecasting.</li>
+<li>Convert <em>Australian electricity load</em> dataset into tidy dataframe.</li>
+<li>Use <em>AutoETS</em> to forecast Australian electricity load.</li>
+<li>Convert <em>Beijing multi-site air quality</em> dataset into tidy dataframe.</li>
+<li>Use <em>AutoARIMA</em> to forecast PM 2.5 concentration at a monitoring station in Beijing.</li>
 </ul></li>
 </ul>
 
