@@ -11,15 +11,14 @@ Anubhab is a **Doctoral Researcher** in Data-driven Forecasting and Control at t
 
 He is currently developing novel methods for probabilistic forecast reconciliation, with an emphasis on nonlinear approaches and their application to real-world forecasting problems, particularly in electric-grid and energy-demand forecasting.
 
-
+Currently in **UniPD** (*University of Padova*) as a *visiting researcher* at the Department of Statistical Sciences.
 
 ### Upcoming Activities
 
-* **Visiting Researcher at the University of Padova** (October 2026)
 * **Research Talk at the University of Hyderabad** (November 2026 - tentative)
 
 [//]: # (His research is motivated by the development of rigorous statistical and machine-learning methods that can translate into practical solutions for energy systems, sustainability, and climate-related challenges.)
 
 **Research interests:** Time Series Forecasting · Probabilistic Forecasting · Bayesian Methods · Forecast Reconciliation · Statistical Machine Learning · Uncertainty Quantification · Energy Informatics · Deep Learning · Extreme Value Theory
 
-**Teaching**: He currently assists with teaching activities in the Bachelor’s program in Data Science and Artificial Intelligence at SUPSI, covering topics in **time-series analysis and forecasting** and **data science in R**.
+**Teaching**: He currently assists with teaching activities in the **Bachelor’s program in Data Science and Artificial Intelligence** at *SUPSI*. **Topics** : **time-series analysis and forecasting** · **data science in R**.

@@ -17,6 +17,12 @@ Education
 
 Work experience
 ======
+
+* 2026 Oct : Visiting doctoral researcher
+  * Department of Statistical Sciences, Università degli studi Padova (UniPD)
+  * Padova, Italy
+  * Supervisors: [Dr. Daniele Girolimetto](https://danigiro.github.io/), [Prof. Tommaso Di Fonzo](https://homes.stat.unipd.it/tommasodifonzo/)
+
 * 2024-current : Doctoral researcher (PhD Student)
   * ISAAC, Scuola universitaria professionale della Svizzera italiana (SUPSI)
   * Mendrisio, Switzerland
