@@ -13,10 +13,6 @@ He is currently developing novel methods for probabilistic forecast reconciliati
 
 Currently in **UniPD** (*University of Padova*) as a *visiting researcher* at the Department of Statistical Sciences.
 
-### Upcoming Activities
-
-* **Research Talk at the University of Hyderabad** (November 2026 - tentative)
-
 [//]: # (His research is motivated by the development of rigorous statistical and machine-learning methods that can translate into practical solutions for energy systems, sustainability, and climate-related challenges.)
 
 **Research interests:** Time Series Forecasting · Probabilistic Forecasting · Bayesian Methods · Forecast Reconciliation · Statistical Machine Learning · Uncertainty Quantification · Energy Informatics · Deep Learning · Extreme Value Theory
